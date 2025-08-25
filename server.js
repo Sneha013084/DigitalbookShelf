@@ -12,7 +12,7 @@ const app = express();
 app.use(express.json());
 
 // Routes
- app.use("./api/books", bookRoutes);
+ app.use("/api/books", bookRoutes);
 
  connectDB();
 
